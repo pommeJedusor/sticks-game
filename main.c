@@ -58,4 +58,12 @@ void main()
 		}
 		first_player = (first_player+1)%2;
 	}
+	if (first_player==0)
+	{
+		printf("j'ai gagné\n");
+	}
+	else
+	{
+		printf("vous avez gagné\n");
+        }
 }
